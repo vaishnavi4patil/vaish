@@ -1,0 +1,46 @@
+ls
+git init
+ls -a
+git config --global user.name "vaishnavi"
+git config --global user.email "vaishnavi4patil@hmail.com
+
+git confing --list
+git status
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/vaishnavi4patil/myrepo.git
+git push origin master
+git pull https://github.com/vaishnavi4patil/myrepo.git
+git push -f origin master
+nano demo.txt
+history
+git diff
+git difftool
+git diff--staged
+git difftool --staged
+git diff HEAD
+git difftool HEAD
+gitstatus --s
+git status --short
+git log --since="1 week ago"
+git log --since=1 day ago"
+git log --since="3 day ago"
+git log --since="3 day ago" --oneline
+git log --since="4 to 3 ago" --oneline
+git tag
+git tag 1.0
+git log
+git show
+git show v1.0
+git log --oneline
+git tag -a v1.1 hey
+git remote
+git branch
+git branch good
+git checkout good
+git merge master
+git branch -D good
+git clone https://github.com/vaishnavi4patil/myrepo.git
+cdmyrepo
+
+[git documentation of that command]
